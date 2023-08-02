@@ -9,7 +9,6 @@ public class Substring {
         ArrayList<String> aList = new ArrayList<>();
         String maxSubstring = "";
         int maxLength = 0;
-        String duplicate = "";
 
         //If the list does not contain the character we are on, then we want to add it to the list,
         //increment our length counter, and modify our maxLength to be the current size of the list.
